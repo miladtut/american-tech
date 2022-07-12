@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+body, h1, h2, h3, h4, h5, h6, 
+.about_head > h2, .main_menu > li > a, 
+.about_head > p, .sec_head h2, .serv_txt > h2,
+.section_news .sec_head h2, .copy_right,
+.team_txt > h2, .team_txt > p, .work_view, .all_work,
+.inner-page .section_about p,.inner-page .about_warpper ul > li,
+.sec_head p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main_menu {
+    float: right;
+}
+
+.logo_site,
+.main_menu > li {
+    float: left;
+}
+
+.hamburger {
+    float: right;
+}
+
+.about_thumbs {
+    right: 0;
+    left: unset;
+}
+
+.img_ab2 {
+    right: unset;
+    left: -120px;
+}
+
+.about_warpper {
+    padding-right: 100px;
+    padding-left: unset;
+}
+
+.about_head {
+    padding-right: 50px;
+    padding-left: unset;
+    font-family: 'Roboto', sans-serif;
+}
+
+#services_slide .owl-nav {
+    right: unset;
+    left: -110px;
+}
+
+.section_services .container-fluid {
+    padding-left: 100px;
+    padding-right: unset;
+}
+
+.about_warpper ul > li {
+    padding-left: 20px;
+    padding-right: unset;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about_warpper ul > li:before {
+    right: unset;
+    left: 0;
+}
+
+.owl-nav > div {
+    float: right;
+}
+
+#services_slide .owl-stage {
+    left: -50px;
+    right: unset;
+}
+
+.search_icon {
+    float: right;
+    right: unset;
+}
+
+#news_slider .owl-nav {
+    left: -100px;
+    right: unset;
+}
+
+.section_services .sec_head h2 {
+    text-align: left;
+}
+
+.section_news {
+    background-image: url(../images/bg_news_en.png);
+}
+
+.section_breadcrumb li:not(:last-child):after,
+.main-content .news-breadcrumb li:not(:last-child):after {
+    margin-left: 10px;
+    margin-right: unset;
+}
+
+.section_breadcrumb li {
+    font-weight: normal;
+}
+
+.inner-page .news_txt {
+    text-align: left;
+}
+
+
+.post-navigation .prev {
+    padding-left: 40px;
+    padding-right: unset;
+    background: url(../images/arrow-l.png) no-repeat;
+}
+
+.post-navigation .next {
+    padding-right: 40px;
+    padding-left: unset;
+    background: url(../images/arrow.png) no-repeat;
+    text-align: right;
+    background-position: right;
+}
+
+.list-inline {
+    margin-left: 0;
+}
+
+.about_head ul li i {
+    margin-right: 15px;
+    margin-left: unset;
+}
+
+
+
+
+
+
+
+
+
+

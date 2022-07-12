@@ -1,0 +1,2179 @@
+/* MEDIA QUERY */
+
+
+/*---------- XS -------------- XS --------------- XS --------------- XS ------------------- XS --------- */
+
+@media(min-width: 320px) and (max-width: 767px) {
+    /* Start Home  */
+    .home {
+        height: auto;
+        background-image: none;
+        background-color: #9A32B0;
+        padding: 100px 0 50px 0;
+        text-align: center;
+    }
+    .home h1 {
+        text-align: center;
+        font-size: 24px;
+        padding: 5px 0;
+    }
+    .home span {
+        padding: 17px 0;
+        text-align: center;
+        font-size: 20px;
+    }
+    .home .btn-light {
+        width: auto;
+        height: auto;
+        font-size: 14px;
+    }
+    .home .btn-light.price {
+        margin-left: 5px;
+    }
+    .home .logo {
+        display: none;
+    }
+    .home .logo img {
+        max-width: 60%;
+    }
+    .home .call-us {
+        display: none;
+    }
+    .home .call-us img {}
+    .home .call-form {
+        position: unset;
+        padding: 20px;
+        width: auto;
+        height: auto;
+        border-radius: 25px;
+        margin-top: 25px;
+        text-align: right;
+    }
+    .home .call-form img {}
+    .home .call-form span {
+        font-size: 20px;
+    }
+    .home .call-form .form-control {}
+    .home .call-form textarea.form-control {}
+    .home .call-form .btn-primary {}
+    /* end Home */
+    /* Start whyUs */
+    .whyUs {
+        height: auto;
+        padding: 50px 0;
+    }
+    .whyUs .title {}
+    .whyUs .title h2 {
+        font-size: 30px;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .whyUs .why {}
+    .whyUs .why hr {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .whyUs .why p {
+        padding: 5px 0;
+        font-size: 16px;
+        text-align: center;
+    }
+    .whyUs .why ul.list-unstyled {}
+    .whyUs .why ul.list-unstyled li {
+        margin: 2px 10px;
+    }
+    .whyUs .why ul.list-unstyled li h3 {}
+    .whyUs .why ul.list-unstyled li h3 span {
+        font-size: 28px;
+    }
+    .whyUs .why ul.list-unstyled li h3 i {
+        font-size: 14px;
+        padding: 0;
+    }
+    .whyUs .why ul.list-unstyled li p {}
+    .whyUs .download {
+        text-align: center;
+    }
+    .whyUs .download .btn-light {
+        width: auto;
+        height: auto;
+        line-height: normal;
+        padding: 15px 30px;
+    }
+    .whyUs .download .btn-light i {}
+    /* End whyUs */
+    /* Start aboutUs */
+    .aboutUs {
+        height: auto;
+        background-image: none;
+        padding: 50px 0;
+    }
+    .aboutUs .magicBorder {
+        height: auto !important;
+        width: auto !important;
+        padding: 0 !important;
+        margin: 15px !important;
+    }
+    .aboutUs .magicBorder i {}
+    .aboutUs .magicBorder h2 {}
+    .aboutUs .magicBorder p {}
+    .aboutUs .magicBorder.first {}
+    .aboutUs .magicBorder.first i {}
+    .aboutUs .magicBorder.first h2 {}
+    .aboutUs .magicBorder.first p {}
+    .aboutUs .magicBorder.second {}
+    .aboutUs .magicBorder.second i {}
+    .aboutUs .magicBorder.second h2 {}
+    .aboutUs .magicBorder.second p {}
+    .aboutUs .magicBorder.third {}
+    .aboutUs .magicBorder.third i {}
+    .aboutUs .magicBorder.third h2 {}
+    .aboutUs .magicBorder.third p {}
+    /* End aboutUs */
+    /* Start Chairman  */
+    .chairman {
+        background-image: url(../img/chairmanBackgroundMobile2.svg);
+        height: 450px;
+        background-size: 89%;
+        /* padding: 50px 0; */
+        /* padding: 15% 0; */
+        padding: 0;
+        /* margin: 30px 0; */
+        margin: 11% 0;
+    }
+    .chairman h2 {
+        padding: 10px 0;
+        padding: 15% 0;
+        font-size: 22px;
+    }
+    .chairman p {
+        padding: 0 25px;
+        padding: 0 12%;
+        font-size: 16px;
+    }
+    .chairman h3 {
+        font-size: 19px;
+        text-align: center;
+    }
+    /* End Chairman  */
+    /* Start services */
+    .services {
+        /* height: auto; */
+        padding: 50px 0;
+    }
+    .services .intro {}
+    .services .intro h2 {
+        font-size: 30px;
+        display: block;
+        text-align: center;
+    }
+    .services .intro hr {
+        width: 100%;
+        margin: 20px 0 10px 0;
+        /* border-top: 2px solid #5C2F84; */
+    }
+    .services .nav-tabs {
+        padding-top: 0px;
+        margin: 0 10px;
+    }
+    .nav-tabs .nav-item {
+        width: 100%;
+    }
+    .services .nav-tabs .nav-link {
+        font-size: 13px;
+        padding: 0px 5px 5px 5px;
+        padding: 0;
+    }
+    .services .nav-tabs .nav-item.show .nav-link,
+    .services .nav-tabs .nav-link.active {}
+    .services .tab-content p {
+        padding: 0px 2px;
+        font-size: 14px;
+    }
+    .services-carousel {
+        height: auto;
+        left: 0;
+        right: 0;
+    }
+    .services-carousel .owl-carousel {
+        margin: 0px;
+    }
+    .services-carousel .owl-carousel .owl-item a {
+        width: auto;
+        height: auto;
+    }
+    .services-carousel .owl-carousel .owl-item a .overlay {
+        top: 5px;
+        right: 7px;
+        bottom: 9px;
+        left: 7px;
+        border-radius: 33px;
+    }
+    .services-carousel .owl-carousel .owl-item a .overlay p {}
+    .services-carousel .owl-carousel .owl-item a img {}
+    .services-carousel .owl-carousel .owl-nav {
+        display: none;
+    }
+    .services-carousel .owl-carousel .owl-nav button.owl-next,
+    .services-carousel .owl-carousel .owl-nav button.owl-prev {}
+    .services-carousel .owl-carousel .owl-nav button.owl-next {}
+    .services-carousel .owl-carousel .owl-nav button.owl-prev {}
+    .services-carousel .owl-carousel .owl-nav button.owl-next span,
+    .services-carousel .owl-carousel .owl-nav button.owl-prev span {}
+    .services-carousel .owl-carousel .owl-nav button.owl-next:hover span,
+    .services-carousel .owl-carousel .owl-nav button.owl-prev:hover span {}
+    /* End services */
+    /* Start priceOffer */
+    .priceOfferHome {
+        height: auto;
+        background-color: #F1F1F1;
+        background-image: url(../img/priceOfferMobile.png);
+        padding: 50px 0;
+    }
+    .priceOfferHome h2 {
+        font-size: 20px;
+    }
+    .priceOfferHome p {
+        font-size: 17px;
+    }
+    .priceOfferHome .btn-light {
+        font-weight: bold;
+        margin: 7px 0;
+        width: 90%;
+    }
+    /* End priceOffer */
+    .mobileNumber .btn-group,
+    .mobileNumber .btn-group-vertical {
+        height: 50px !important;
+        width: 5% !important;
+    }
+    .mobileNumber .btn-group>.btn:first-child {
+        line-height: 38px !important;
+        width: auto !important;
+    }
+    .mobileNumber .dropdown-menu {}
+    .mobileNumber .dropdown-menu li {}
+    .mobileNumber .dropdown-menu li .flag-icon {}
+    .clientType {}
+    .clientType .form-input {
+        padding-right: 65px !important;
+    }
+    .clientType .btn-group,
+    .clientType .btn-group-vertical {
+        height: 50px !important;
+        width: 5% !important;
+    }
+    .clientType .btn-group>.btn:first-child {
+        line-height: 38px !important;
+        width: auto !important;
+    }
+    .clientType .dropdown-menu {}
+    .clientType .dropdown-menu li {}
+    .clientType .dropdown-menu li i {}
+    .iti__selected-flag {
+        width: 60px !important;
+        height: 51px !important;
+    }
+    .iti__country-list {}
+    .iti__flag.iti__gb {}
+    .iti {}
+    .iti--allow-dropdown .iti__flag-container,
+    .iti--separate-dial-code .iti__flag-container {}
+    .iti__country {}
+    .iti__country.iti__highlight {}
+    .iti__flag {}
+    .iti__flag-box,
+    .iti__country-name {}
+    /* End LinkGeneration */
+    /* Start Footer */
+    .footer {
+        height: auto;
+        background-image: unset;
+        background-color: #DED5E6;
+        padding-top: 50px;
+    }
+    .footer .container-fluid {}
+    .footer .row {}
+    .footer .firstSection {
+        position: unset;
+    }
+    .footer .barcode {
+        padding-right: 15px;
+        text-align: right;
+    }
+    .footer .barcode img {
+        max-width: 90%;
+    }
+    .footer .contact-info {
+        padding: 0px;
+    }
+    .footer .contact-info p {
+        font-size: 14px;
+    }
+    .footer .contact-info p.email {
+        padding: 5px 0;
+    }
+    .footer .position {}
+    .footer .position .positionData {
+        position: unset;
+        text-align: center;
+    }
+    .footer .position img {
+        max-width: 100%;
+    }
+    .footer .position p {}
+    .footer .social-icons {
+        padding: 15px;
+    }
+    .footer .social-icons a {
+        margin: 0 5px;
+    }
+    .footer .saudi-image {
+        position: unset;
+        text-align: center;
+        padding: 15px;
+        margin: auto;
+    }
+    .footer .saudi-image img {
+        width: 90%;
+    }
+    .footer .clients {
+        margin: 60px 0 0 0;
+    }
+    .footer .clients h2 {}
+    .footer .regist {
+        position: unset;
+        padding-top: 15px;
+    }
+    .footer .regist h3 {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+    .footer .regist .form-input {
+        width: 100%;
+    }
+    .footer .regist .btn-light {
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+    }
+    .footer .owl-carousel {}
+    .footer .owl-carousel .owl-item img {}
+    .footer .owl-carousel .owl-nav {}
+    .footer .owl-carousel .owl-nav button.owl-next,
+    .footer .owl-carousel .owl-nav button.owl-prev {}
+    .footer .owl-carousel .owl-nav button.owl-next {}
+    .footer .owl-carousel .owl-nav button.owl-prev {}
+    .footer .owl-carousel .owl-nav button.owl-next span,
+    .footer .owl-carousel .owl-nav button.owl-prev span {}
+    /* End Footer */
+    /* Start endFooter */
+    .endFooter {
+        height: auto;
+    }
+    .endFooter p {
+        padding: 0;
+        margin: 0;
+        padding: 11px 0;
+        font-size: 13px;
+    }
+    /* End endFooter */
+    /* ---------------------------- Join Our Team PAGE ------------------------------- */
+    /* Start team */
+    .team {
+        height: auto;
+        background-image: none;
+        background-color: #F9F9F9;
+        margin: 0;
+        padding: 50px 0;
+        margin-top: 100px;
+    }
+    .team h2 {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 30px;
+    }
+    .teamJoin {
+        height: auto;
+        background-image: none;
+        margin: 0px;
+        background-color: #F9F9F9;
+        margin: 0;
+        padding: 0;
+    }
+    .teamJoin .nav-tabs {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .teamJoin .nav-tabs .nav-item {
+        width: auto;
+        margin-right: 10%;
+    }
+    .teamJoin .nav-tabs .nav-link {
+        font-size: 15px;
+        padding: 0px 15px;
+        margin: 0 auto;
+    }
+    .teamJoin .nav-tabs .nav-item.show .nav-link,
+    .teamJoin .nav-tabs .nav-link.active {
+        font-size: 15px;
+        padding: 0px 15px;
+        margin: 0 auto;
+        background: transparent;
+    }
+    .teamJoin p {
+        margin: 0;
+        padding-bottom: 30px;
+    }
+    .teamJoin .form-input {
+        height: 50px;
+        line-height: unset;
+        font-size: 13px;
+    }
+    .teamJoin .mobileNumber .form-input {
+        padding-right: 70px !important;
+    }
+    .teamJoin .form-check-inline {
+        width: 48%;
+        margin: 0;
+    }
+    .teamJoin .selectGender {}
+    .teamJoin .form-control.country {}
+    .teamJoin .form-control option {}
+    .teamJoin .form-control.pinCode {}
+    .teamJoin .btn-light {
+        width: 100%;
+        height: auto;
+        line-height: unset;
+        font-size: 14px;
+        margin: 22px 0;
+    }
+    .teamJoin .form-group {}
+    .teamJoin .btn-outline-secondary {
+        height: 50px;
+        line-height: 50px;
+        font-size: 13px;
+        width: 73px;
+        text-align: center;
+    }
+    .teamJoin .btn-outline-secondary i {
+        display: none;
+    }
+    .teamJoin .form-group.link .form-input {}
+    .teamJoin .form-group i {
+        line-height: 48px;
+        font-size: 24px;
+        /* display: none; */
+    }
+    .teamJoin .mobileNumber i {
+        top: 22% !important;
+        right: 10% !important;
+        font-size: 20px !important;
+    }
+    .datepicker.dropdown-menu {
+        top: 606px !important;
+        left: 29px !important;
+        right: 28px !important;
+    }
+    .teamJoin .datepicker-days {}
+    .teamJoin .datepicker table {}
+    .teamJoin .contractType {}
+    .teamJoin .contractType p {
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+    }
+    .teamJoin .custom-control-label {
+        font-size: 12px;
+    }
+    .teamJoin .custom-control-label::before {}
+    .teamJoin .custom-control-input:checked~.custom-control-label::before {}
+    .teamJoin .custom-control-label::after {}
+    .teamJoin .upload-btn-wrapper {}
+    .teamJoin .btn.upload {
+        height: 40px;
+        width: 61%;
+        font-size: 12px;
+    }
+    .teamJoin .btn.upload i {}
+    .teamJoin .upload-btn-wrapper input[type=file] {
+        height: 39px;
+        width: 56%;
+    }
+    /* End teamJoin */
+    /* ---------------------------- Join Price Offer PAGE ------------------------------- */
+    /* Start Price Offer */
+    .priceOffer {
+        height: auto;
+        margin: 0;
+        background-image: none;
+        background-color: #F9E7EE;
+        padding: 50px 0;
+        margin-top: 100px;
+    }
+    .priceOffer h2 {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 30px;
+    }
+    .priceOfferForm {
+        height: auto;
+        background-image: none;
+        margin: 0px;
+        background-color: #F9E7EE;
+        margin: 0;
+        padding: 0;
+    }
+    .priceOfferForm h2 {
+        font-size: 20px;
+    }
+    .priceOfferForm p {
+        margin-bottom: 0px;
+        padding-bottom: 10px;
+        font-size: 16px;
+    }
+    .priceOfferForm .form-input {
+        height: 50px;
+        line-height: unset;
+        font-size: 13px;
+    }
+
+    #clientSelect{
+                height: 50px;
+                line-height: unset;
+                font-size: 13px;
+                padding-right: 70px;
+    }
+    .mobileNumber .iti--allow-dropdown input {
+        padding-right: 74px !important;
+    }
+    .priceOfferForm nav {}
+    .priceOfferForm nav ul {}
+    .priceOfferForm nav ul li {
+        height: 50px;
+        line-height: unset;
+        font-size: 13px;
+        padding: 0 65px 0 0 !important;
+        line-height: 50px;
+    }
+    .priceOfferForm nav ul li a {}
+    .priceOfferForm nav ul ul.dropUl {}
+    .priceOfferForm nav ul ul.dropUl li {}
+    .priceOfferForm nav ul ul.dropUl li a {}
+    .priceOfferForm nav ul li .icon {
+        height: 50px !important;
+        line-height: unset !important;
+        font-size: 13px !important;
+        width: 60px !important;
+    }
+    .priceOfferForm nav ul li .icon img {
+        margin: 0;
+    }
+    .priceOfferForm .selectGender {}
+    .priceOfferForm .form-control.country {}
+    .priceOfferForm .form-control option {}
+    .priceOfferForm .form-control.pinCode {}
+    .priceOfferForm .btn-light {
+        width: 100%;
+        height: auto;
+        line-height: unset;
+        font-size: 14px;
+        margin: 22px 0;
+    }
+    .clientIcon{
+        
+width: 60px;
+        
+height: 51px;
+        
+line-height: 53px;
+    }
+    .priceOfferForm .form-group {}
+    .priceOfferForm .btn-outline-secondary {}
+    .priceOfferForm .btn-outline-secondary i {}
+    .priceOfferForm .form-group.link .form-input {}
+    .priceOfferForm .form-group i {
+        /* position: unset; */
+        line-height: unset;
+        top: 22% !important;
+        right: 10% !important;
+        font-size: 20px !important;
+    }
+    .priceOfferForm .datepicker-days {}
+    .priceOfferForm .datepicker table {}
+    .priceOfferForm .contractType {
+        margin-bottom: 0px;
+    }
+    .priceOfferForm .form-check-inline {
+        width: 48%;
+        margin: 0;
+    }
+    .priceOfferForm .radioLabel {
+        display: block;
+        font-size: 14px !important;
+    }
+    .priceOfferForm .custom-control-label {
+        font-size: 12px;
+    }
+    .priceOfferForm .custom-control-label::before {}
+    .priceOfferForm .custom-control-input:checked~.custom-control-label::before {}
+    .priceOfferForm .custom-control-label::after {}
+    .priceOfferForm .upload-btn-wrapper {}
+    .priceOfferForm .btn.upload {
+        height: 40px;
+        width: 61%;
+        font-size: 12px;
+    }
+    .priceOfferForm .btn.upload i {}
+    .priceOfferForm .upload-btn-wrapper input[type=file] {
+        height: 39px;
+        width: 56%;
+    }
+    .priceOfferForm textarea {
+        height: 120px;
+    }
+    .priceOfferForm .form-input.btn-danger {
+        width: 46%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+        font-size: 11px;
+        padding: 5px 10px;
+        margin: 1%;
+        line-height: unset;
+    }
+    .priceOfferForm .form-input.btn-danger.manage {
+        width: 83%;
+    }
+    /******************* Slider Range ******************/
+    .priceOfferForm .budget .price-range-block {}
+    .priceOfferForm .budget .ui-slider-horizontal {}
+    .priceOfferForm .budget .ui-widget-header {}
+    .priceOfferForm .budget .price-range-field {}
+    /******************* Slider Range ******************/
+    /* End priceOfferForm */
+    /* -------------------------------- Blog Page ------------------------- */
+    .blogsBanner {
+        height: auto;
+        background-image: none;
+        background-color: #F9F9F9;
+        margin: 0;
+        padding: 50px 0;
+        margin-top: 100px;
+    }
+    .blogsBanner h2 {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 30px;
+    }
+    .blogsBanner .searchDiv {
+        padding: 0;
+        position: relative;
+        margin-top: 60px;
+    }
+    .blogsBanner .form-control {
+        height: 50px;
+        line-height: unset;
+        font-size: 13px;
+        width: 100%;
+        margin: 0;
+    }
+    .blogsBanner .btn-secondary {
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        top: 0;
+        left: 0;
+    }
+    .blogsBanner .btn-secondary i {
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .blogsPage {}
+    .blogsPage .nav-tabs {
+        margin: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .blogsPage .nav-tabs .nav-item {
+        width: auto;
+    }
+    .blogsPage .nav-tabs .nav-link {
+        font-size: 15px;
+        padding: 0px 15px;
+        margin: 0 auto;
+    }
+    .blogsPage .nav-tabs .nav-item.show .nav-link,
+    .blogsPage .nav-tabs .nav-link.active {
+        font-size: 15px;
+        padding: 0px 15px;
+        margin: 0 auto;
+    }
+    .blogsPage .article {}
+    .blogsPage .article .articlePhoto {
+        width: 100%;
+        height: auto;
+    }
+    .blogsPage .article .articlePhoto img {}
+    .blogsPage .article .articlePhoto .overlay {}
+    .blogsPage .article .articlePhoto .overlay h4 {}
+    .blogsPage .article h3 {}
+    .blogsPage .article i {}
+    .blogsPage .article span {}
+    .blogsPage .article p {}
+    /***************** Page Blog2 Start **************************/
+    .postPage {}
+    .postPage .breadcrumb-item+.breadcrumb-item::before {}
+    .postPage .breadcrumb {}
+    .postPage .breadcrumb li {
+        font-size: 16px;
+        margin-left: 3px;
+    }
+    .postPage .breadcrumb li.active {}
+    .postPage .breadcrumb li a {}
+    .postPage .breadcrumb li.active a {}
+    .postPage .breadcrumb li i {
+        padding-right: 4px;
+        font-size: 12px;
+    }
+    .postPage .breadcrumb li.active i {}
+    .postPage .post {}
+    .postPage .post .postPhoto {}
+    .postPage .post .postPhoto img {}
+    .postPage .post h3 {}
+    .postPage .post i {}
+    .postPage .post span {}
+    .postPage .post p {
+        font-size: 14px;
+    }
+    .postPage .cats {
+        margin-top: 30px;
+    }
+    .postPage .cats h4 {
+        font-size: 20px;
+    }
+    .postPage .cats a {}
+    .postPage .cats a i {}
+    .postPage .cats a span {
+        font-size: 16px;
+    }
+    .postPage .relatedPosts {
+        margin: 30px 0;
+    }
+    .postPage .relatedPosts h4 {
+        font-size: 20px;
+    }
+    .postPage .relatedPosts .postPhoto {}
+    .postPage .relatedPosts .postPhoto img {}
+    .postPage .relatedPosts .postInfo {}
+    .postPage .relatedPosts .postInfo h5 {
+        font-size: 16px;
+    }
+    .postPage .relatedPosts .postInfo i {}
+    .postPage .relatedPosts .postInfo span {}
+    /***************** Free Consultation Page Start **************************/
+    .freeConsultBanner {
+        height: auto;
+        margin: 0;
+        background-image: none;
+        background-color: #F9F1DC;
+        padding: 50px 0;
+        margin-top: 100px;
+    }
+    .freeConsultBanner h2 {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 30px;
+    }
+    .freeConsult {
+        height: auto;
+        background-image: none;
+        margin: 0px;
+        background-color: #F9F1DC;
+        margin: 0;
+        padding: 0;
+    }
+    .freeConsult p {
+        margin: 0;
+        padding-bottom: 30px;
+    }
+    .freeConsult .form-input {
+        height: 50px;
+        line-height: unset;
+        font-size: 13px;
+        padding-right: 20px;
+        /* margin-bottom: 1rem !important; */
+    }
+    .freeConsult .mobileNumber i {
+        position: absolute !important;
+        top: 18% !important;
+        right: 10% !important;
+        font-size: 21px !important;
+    }
+    .freeConsult .form-group i {
+        position: unset;
+        line-height: unset;
+        font-size: 20px;
+    }
+    .freeConsult .chooseTime i {
+        position: absolute;
+        width: 63px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .freeConsult .form-control.pinCode {}
+    .freeConsult h3 {}
+    .freeConsult .form-input.btn-danger {
+        height: auto;
+        font-size: 11px;
+        padding: 5px 10px;
+        margin: 1%;
+        line-height: unset;
+    }
+    .freeConsult .form-input.btn-danger.detect{
+        
+    }
+    .freeConsult .btn-light {
+        width: 100%;
+        height: auto;
+        line-height: unset;
+        font-size: 14px;
+        margin: 22px 0;
+    }
+  
+    .priceSlider {
+        margin: 40px 30px;
+    }
+    .priceSlider input {}
+    .priceSlider span.min-fixed {
+        font-size: 15px;
+    }
+    .priceSlider span.max-fixed {
+        font-size: 15px;
+        width: 40%;
+    }
+    .slider-labels {}
+    .slider-labels .caption {
+        width: 60px;
+    }
+    .slider-labels .caption.min {}
+    .slider-labels .caption.max {}
+    .slider-labels .caption span {
+        font-size: 12px;
+    }
+    .slider-labels .caption strong {
+        font-size: 12px;
+    }
+    /*Start offersHome*/
+    .offersHome {
+        background-image: none;
+        background-color: #FAF4E6;
+        height: auto;
+    }
+    .offersHome h2 {
+        text-align: center;
+        padding-top: 20%;
+        padding-bottom: 14%;
+        font-size: 30px;
+    }
+    .offers {}
+    .offers .allPackages {
+        width: auto;
+        /* height: auto; */
+        background-image: none;
+        /* margin-top: 0px; */
+        height: 1340px;
+    }
+    .offers .allPackages .package {
+        /* position: unset; */
+        top: 4% !important;
+    }
+    .offers .allPackages .package.one {
+        right: 0%;
+    }
+    .offers .allPackages .col-md-6 {
+        position: relative;
+        background-size: 98%;
+        background-repeat: no-repeat;
+        height: 170px;
+        margin: auto 2%;
+        width: 98%;
+        margin-bottom: 5%;
+    }
+    .offers .allPackages .col-md-6:first-child {
+        background-image: url(../img/offer1.svg);
+    }
+    .offers .allPackages .col-md-6:nth-child(2) {
+        background-image: url(../img/offer2.svg);
+    }
+    .offers .allPackages .col-md-6:nth-child(3) {
+        background-image: url(../img/offer3.svg);
+    }
+    .offers .allPackages .col-md-6:nth-child(4) {
+        background-image: url(../img/offer4.svg);
+    }
+    .offers .allPackages .col-md-6:nth-child(5) {
+        background-image: url(../img/offer5.svg);
+    }
+    .offers .allPackages .col-md-6:nth-child(6) {
+        background-image: url(../img/offer6.svg);
+    }
+    .offers .allPackages .col-md-6:nth-child(7) {
+        background-image: url(../img/offer7.svg);
+    }
+    .offers .allPackages .package.two {
+        left: 0%;
+    }
+    .offers .allPackages .package.three {
+        right: 0%;
+    }
+    .offers .allPackages .package.four {
+        left: 0%;
+    }
+    .offers .allPackages .package.five {
+        right: 0%;
+    }
+    .offers .allPackages .package.six {
+        left: 0%;
+    }
+    .offers .allPackages .package.seven {
+        right: 0%;
+    }
+    .offers .allPackages .package h3 {
+        font-size: 17px;
+        margin-top: 7px;
+        margin-top: 3%;
+        margin-bottom: 10px;
+        margin-bottom: 4%;
+    }
+    .offers .allPackages .package span {
+        font-size: 14px;
+    }
+    .offers .allPackages .package span .num {}
+    .offers .allPackages .package p {
+        line-height: 14px;
+        font-size: 12px;
+        margin: 3px 0 4px 0px;
+        margin: 1% 0 2% 0;
+    }
+    .offers .allPackages .package .btn-light {
+        height: 24px;
+        line-height: 10px;
+    }
+
+
+    /* ------------------------------------------------ */
+    .elegant-calencar ol, .elegant-calencar ul {
+}
+.elegant-calencar blockquote,.elegant-calencar q {
+}
+.elegant-calencar blockquote:before,.elegant-calencar blockquote:after,
+.elegant-calencar q:before, .elegant-calencar q:after {
+
+}
+.elegant-calencar table {
+}
+.elegant-calencar .clearfix:before,
+.elegant-calencar .clearfix:after {
+}
+
+.elegant-calencar .clearfix:after {
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.elegant-calencar .clearfix {
+}
+.elegant-calencar .img-responsive {
+}
+
+
+.elegant-calencar {height: 315px;overflow: hidden;}
+
+#header {
+}
+
+.elegant-calencar .pre-button,.elegant-calencar .next-button {
+}
+
+
+.elegant-calencar .pre-button {
+}
+
+.elegant-calencar .next-button {
+}
+
+.elegant-calencar .head-info {width: unset;}
+
+.elegant-calencar .head-day {
+}
+
+.elegant-calencar .head-month {font-size: 12px;margin: 0 15px;}
+
+#calendar {}
+#calendar th{margin: 0px 2px 5px 2px;width: 12%;height: 12%;font-size: 11px;line-height: 33px;}
+#calendar tr {
+}
+
+.elegant-calencar thead tr {
+}
+
+.elegant-calencar tbody tr {
+}
+
+.elegant-calencar tbody td{margin: 0px 2px 5px 2px;width: 12%;height: 12%;font-size: 11px;line-height: 33px;}
+
+
+
+#today {
+}
+
+#disabled {
+}
+
+
+
+#reset{
+}
+
+/* *********************************************** */
+
+}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 360px) and (max-width: 767px) {
+    /* Start Chairman  */
+    .chairman {
+        background-image: url(../img/chairmanBackgroundMobile2.svg);
+        height: 500px;
+        background-size: 89%;
+        /* padding: 50px 0; */
+        /* padding: 15% 0; */
+        padding: 0;
+        /* margin: 30px 0; */
+        margin: 17% 0;
+    }
+    .chairman h2 {
+        padding: 10px 0;
+        padding: 22% 0 15% 0;
+        font-size: 22px;
+    }
+    .chairman p {
+        padding: 0 25px;
+        padding: 0 12% 8% 12%;
+        font-size: 17px;
+    }
+    .chairman h3 {
+        font-size: 19px;
+        text-align: center;
+    }
+    /* End Chairman  */
+    .offers {}
+    .offers .allPackages {}
+    .offers .allPackages .package {}
+    .offers .allPackages .col-md-6 {}
+    .offers .allPackages .package h3 {
+        margin-top: 4%;
+        margin-bottom: 6%;
+    }
+    .offers .allPackages .package span {}
+    .offers .allPackages .package span .num {}
+    .offers .allPackages .package p {
+        margin: 2% 0 3% 0;
+    }
+    .offers .allPackages .package .btn-light {}
+}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 375px) and (max-width: 767px) {
+    /* Start Chairman  */
+    .chairman {
+        background-image: url(../img/chairmanBackgroundMobile2.svg);
+        height: 518px;
+        background-size: 89%;
+        /* padding: 50px 0; */
+        /* padding: 15% 0; */
+        padding: 0;
+        /* margin: 30px 0; */
+        margin: 13% 0;
+    }
+    .chairman h2 {
+        padding: 10px 0;
+        padding: 20% 0 13% 0;
+        font-size: 22px;
+    }
+    .chairman p {
+        padding: 0 25px;
+        padding: 0 13% 9% 13%;
+        font-size: 17px;
+    }
+    .chairman h3 {
+        font-size: 19px;
+        text-align: center;
+    }
+    /* End Chairman  */
+    .offers {}
+    .offers .allPackages {}
+    .offers .allPackages .package {}
+    .offers .allPackages .col-md-6 {}
+    .offers .allPackages .package h3 {
+        margin-top: 4%;
+        margin-bottom: 6%;
+    }
+    .offers .allPackages .package span {}
+    .offers .allPackages .package span .num {}
+    .offers .allPackages .package p {
+        margin: 3% 0 4% 0;
+    }
+    .offers .allPackages .package .btn-light {}
+}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 411px) and (max-width: 767px) {
+    /* Start Chairman  */
+    .chairman {
+        background-image: url(../img/chairmanBackgroundMobile.svg);
+        height: 450px;
+        background-size: 89%;
+        /* padding: 50px 0; */
+        /* padding: 15% 0; */
+        padding: 0;
+        /* margin: 30px 0; */
+        margin: 11% 0;
+    }
+    .chairman h2 {
+        padding: 10px 0;
+        padding: 20% 0 8% 0;
+        font-size: 22px;
+    }
+    .chairman p {
+        padding: 0 25px;
+        padding: 0 12%;
+        font-size: 16px;
+    }
+    .chairman h3 {
+        font-size: 19px;
+        text-align: center;
+    }
+    /* End Chairman  */
+    .offers {}
+    .offers .allPackages {
+        height: 1550px;
+    }
+    .offers .allPackages .package {}
+    .offers .allPackages .col-md-6 {
+        height: 200px;
+    }
+    .offers .allPackages .package h3 {
+        margin-top: 5%;
+        margin-bottom: 6%;
+        font-size: 18px;
+    }
+    .offers .allPackages .package span {
+        font-size: 16px;
+    }
+    .offers .allPackages .package span .num {}
+    .offers .allPackages .package p {
+        margin: 2% 0 3% 0;
+        font-size: 14px;
+    }
+    .offers .allPackages .package .btn-light {
+        height: 30px;
+        line-height: 16px;
+        font-size: 13px;
+    }
+}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 414px) and (max-width: 767px) {
+    /* Start Chairman  */
+    .chairman {}
+    .chairman h2 {
+        padding: 25% 0 8% 0;
+    }
+    .chairman p {}
+    .chairman h3 {}
+    /* End Chairman  */
+    .offers {}
+    .offers .allPackages {}
+    .offers .allPackages .package {}
+    .offers .allPackages .col-md-6 {}
+    .offers .allPackages .package h3 {
+        margin-top: 4%;
+        margin-bottom: 6%;
+    }
+    .offers .allPackages .package span {}
+    .offers .allPackages .package span .num {}
+    .offers .allPackages .package p {
+        margin: 2% 0 3% 0;
+    }
+    .offers .allPackages .package .btn-light {}
+}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 568px) and (max-width: 767px) {
+    .nav-tabs .nav-item {
+        width: 50%;
+    }
+    /* Start Chairman  */
+    .chairman {
+        height: 515px;
+        background-image: url(../img/chairmanBackgroundMobile.svg);
+        background-size: 80%;
+    }
+    .chairman h2 {
+        padding: 20% 0 8% 0;
+    }
+    .chairman p {
+        padding: 0 21% 4% 21%;
+    }
+    .chairman h3 {}
+    /* End Chairman  */
+    .offers {}
+    .offers .allPackages {
+        height: 2000px;
+    }
+    .offers .allPackages .package {}
+    .offers .allPackages .col-md-6 {
+        height: 250px;
+    }
+    .offers .allPackages .package h3 {
+        margin-top: 5%;
+        margin-bottom: 7%;
+        font-size: 20px;
+    }
+    .offers .allPackages .package span {
+        font-size: 18px;
+    }
+    .offers .allPackages .package span .num {}
+    .offers .allPackages .package p {
+        margin: 2% 0 3% 0;
+        font-size: 18px;
+        line-height: unset;
+    }
+    .offers .allPackages .package .btn-light {
+        height: 35px;
+        line-height: 22px;
+        font-size: 14px;
+    }
+}
+
+
+/* ------- SM ------------- SM ------------- SM ------------- SM ------------- SM ------------- SM ------ */
+
+@media(min-width: 640px) and (max-width: 767px) {
+    /* Start Chairman  */
+    .chairman {}
+    .chairman h2 {}
+    .chairman p {
+        font-size: 18px;
+        padding: 0 16% 4% 16%;
+    }
+    .chairman h3 {}
+    /* End Chairman  */
+    .offers {}
+    .offers .allPackages {}
+    .offers .allPackages .package {}
+    .offers .allPackages .col-md-6 {}
+    .offers .allPackages .package h3 {}
+    .offers .allPackages .package span {}
+    .offers .allPackages .package span .num {}
+    .offers .allPackages .package p {}
+    .offers .allPackages .package .btn-light {}
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media(min-width: 667px) and (max-width: 767px) {
+    /* Start Chairman  */
+    .chairman {
+        height: 534px;
+    }
+    .chairman h2 {
+        font-size: 30px;
+    }
+    .chairman p {
+        font-size: 19px;
+        padding: 0 15% 4% 15%;
+    }
+    .chairman h3 {
+        font-size: 22px;
+        text-align: left;
+        padding-left: 5%;
+    }
+    /* End Chairman  */
+    .offers {}
+    .offers .allPackages {}
+    .offers .allPackages .package {}
+    .offers .allPackages .col-md-6 {}
+    .offers .allPackages .package h3 {}
+    .offers .allPackages .package span {}
+    .offers .allPackages .package span .num {}
+    .offers .allPackages .package p {}
+    .offers .allPackages .package .btn-light {}
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media(min-width: 731px) and (max-width: 767px) {
+    /* Start Chairman  */
+    .chairman {
+        height: 590px;
+    }
+    .chairman h2 {
+        font-size: 33px;
+    }
+    .chairman p {
+        font-size: 21px;
+        padding: 0 12% 6% 12%;
+    }
+    .chairman h3 {
+        font-size: 24px;
+    }
+    /* End Chairman  */
+    .offers {}
+    .offers .allPackages {}
+    .offers .allPackages .package {}
+    .offers .allPackages .col-md-6 {}
+    .offers .allPackages .package h3 {}
+    .offers .allPackages .package span {}
+    .offers .allPackages .package span .num {}
+    .offers .allPackages .package p {}
+    .offers .allPackages .package .btn-light {}
+}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media(min-width: 736px) and (max-width: 767px) {
+    /* Start Chairman  */
+    .chairman {}
+    .chairman h2 {}
+    .chairman p {}
+    .chairman h3 {}
+    /* End Chairman  */
+    .offers {}
+    .offers .allPackages {}
+    .offers .allPackages .package {}
+    .offers .allPackages .col-md-6 {}
+    .offers .allPackages .package h3 {}
+    .offers .allPackages .package span {}
+    .offers .allPackages .package span .num {}
+    .offers .allPackages .package p {}
+    .offers .allPackages .package .btn-light {}
+}
+
+
+/* ----- MD --------- MD --------- MD --------- MD --------- MD --------- MD --------- MD --------- MD ----*/
+
+@media(min-width: 768px) and (max-width: 991px) {
+    /* Start Home  */
+    .home {
+        height: auto;
+        background-image: none;
+        background-color: #9A32B0;
+        padding: 100px 0 50px 0;
+        text-align: center;
+    }
+    .home h1 {
+        text-align: center;
+        font-size: 38px;
+        padding: 40px 0 0px 0;
+    }
+    .home span {
+        padding: 17px 0;
+        text-align: center;
+        font-size: 29px;
+    }
+    .home .btn-light {
+        width: auto;
+        height: auto;
+        font-size: 18px;
+    }
+    .home .btn-light.price {
+        margin-left: 5px;
+    }
+    .home .logo {
+        display: none;
+    }
+    .home .logo img {
+        max-width: 60%;
+    }
+    .home .call-us {
+        display: none;
+    }
+    .home .call-us img {}
+    .home .call-form {
+        position: unset;
+        padding: 20px;
+        width: 70%;
+        margin: auto;
+        height: auto;
+        border-radius: 25px;
+        margin-top: 25px;
+        text-align: right;
+    }
+    .home .call-form img {}
+    .home .call-form span {
+        font-size: 24px;
+    }
+    .home .call-form .form-control {
+        font-size: 15px;
+    }
+    .home .call-form textarea.form-control {}
+    .home .call-form .btn-primary {
+        font-size: 18px;
+        width: 50%;
+    }
+    /* end Home */
+    /* Start whyUs */
+    .whyUs {
+        height: auto;
+        padding: 50px 0;
+        background-position: right;
+    }
+    .whyUs .title {}
+    .whyUs .title h2 {
+        font-size: 30px;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .whyUs .why {}
+    .whyUs .why hr {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .whyUs .why p {
+        padding: 5px 0;
+        font-size: 16px;
+        text-align: center;
+    }
+    .whyUs .why ul.list-unstyled {}
+    .whyUs .why ul.list-unstyled li {
+        margin: 2px 10px;
+    }
+    .whyUs .why ul.list-unstyled li h3 {}
+    .whyUs .why ul.list-unstyled li h3 span {
+        font-size: 28px;
+    }
+    .whyUs .why ul.list-unstyled li h3 i {
+        font-size: 14px;
+        padding: 0;
+    }
+    .whyUs .why ul.list-unstyled li p {}
+    .whyUs .download {
+        text-align: center;
+    }
+    .whyUs .download .btn-light {
+        width: auto;
+        height: auto;
+        line-height: normal;
+        padding: 15px 30px;
+    }
+    .whyUs .download .btn-light i {}
+    /* End whyUs */
+    /* Start aboutUs */
+    .aboutUs {
+        height: auto;
+        background-image: none;
+        padding: 50px 0;
+    }
+    .aboutUs .col-lg-4 {
+        padding: 0;
+    }
+    .aboutUs .magicBorder {
+        height: auto !important;
+        width: auto !important;
+        padding: 0 !important;
+        margin-left: 10px !important;
+    }
+    .aboutUs .magicBorder i {}
+    .aboutUs .magicBorder h2 {}
+    .aboutUs .magicBorder p {}
+    .aboutUs .magicBorder.first {}
+    .aboutUs .magicBorder.first i {}
+    .aboutUs .magicBorder.first h2 {}
+    .aboutUs .magicBorder.first p {}
+    .aboutUs .magicBorder.second {}
+    .aboutUs .magicBorder.second i {}
+    .aboutUs .magicBorder.second h2 {}
+    .aboutUs .magicBorder.second p {}
+    .aboutUs .magicBorder.third {
+        margin-left: 0px !important;
+    }
+    .aboutUs .magicBorder.third i {}
+    .aboutUs .magicBorder.third h2 {}
+    .aboutUs .magicBorder.third p {}
+    /* End aboutUs */
+    /* Start Chairman  */
+    .chairman {
+        background-size: 96%;
+        padding: 0 22px;
+        margin: 0;
+    }
+    .chairman h2 {
+        padding: 46px 65px 25px 0;
+    }
+    .chairman p {
+        padding: 0 5px;
+    }
+    .chairman h3 {}
+    /* End Chairman  */
+    /* Start services */
+    .services {
+        text-align: center;
+        margin: auto;
+    }
+    .services .intro {}
+    .services .intro h2 {
+        font-size: 30px;
+    }
+    .services .intro hr {
+        margin: 0 15px 0 0;
+        width: 30%;
+    }
+    .services .nav-tabs {}
+    .nav-tabs .nav-item {
+        margin-left: 0px;
+        /* width: 25%; */
+    }
+    .services .nav-tabs .nav-link {
+        font-size: 16px;
+        padding: 0;
+    }
+    .services .nav-tabs .nav-item.show .nav-link,
+    .services .nav-tabs .nav-link.active {}
+    .services .tab-content p {
+        padding: 5px 20px;
+        font-size: 14px;
+    }
+    .services-carousel {
+        height: auto;
+        padding: 60px 0;
+        background-repeat: no-repeat;
+        text-align: center;
+    }
+    .services-carousel .owl-carousel {
+    margin-right: -45px;
+    }
+
+    .services-carousel .owl-carousel .owl-item{
+        
+margin-right: 0px !important;
+    width: 360px !important;
+
+    }
+    .services-carousel .owl-carousel .owl-item a {
+        width: 330px;
+        height: auto;
+    }
+    .services-carousel .owl-carousel .owl-item a .overlay {}
+    .services-carousel .owl-carousel .owl-item a .overlay p {}
+    .services-carousel .owl-carousel .owl-item a img {
+    /* max-width: 95%; */
+}
+    .services-carousel .owl-carousel .owl-nav {}
+    .services-carousel .owl-carousel .owl-nav button.owl-next,
+    .services-carousel .owl-carousel .owl-nav button.owl-prev {}
+    .services-carousel .owl-carousel .owl-nav button.owl-next {}
+    .services-carousel .owl-carousel .owl-nav button.owl-prev {}
+    .services-carousel .owl-carousel .owl-nav button.owl-next span,
+    .services-carousel .owl-carousel .owl-nav button.owl-prev span {}
+    .services-carousel .owl-carousel .owl-nav button.owl-next:hover span,
+    .services-carousel .owl-carousel .owl-nav button.owl-prev:hover span {}
+    /* End services */
+    /* Start priceOffer */
+    .priceOfferHome {
+        height: auto;
+        text-align: right;
+    }
+    .priceOfferHome h2 {}
+    .priceOfferHome p {
+        padding-right: 8%;
+    }
+    .priceOfferHome .btn-light {}
+    /* End priceOffer */
+    /* Start LinkGeneration */
+    .mobileNumber {}
+    .mobileNumber .form-input {}
+    .mobileNumber .btn-group,
+    .mobileNumber .btn-group-vertical {}
+    .mobileNumber .btn-group>.btn:first-child {}
+    .mobileNumber .dropdown-menu {}
+    .mobileNumber .dropdown-menu li {}
+    .mobileNumber .dropdown-menu li .flag-icon {}
+    .clientType {}
+    .clientType .form-input {}
+    .clientType .btn-group,
+    .clientType .btn-group-vertical {}
+    .clientType .btn-group>.btn:first-child {}
+    .clientType .dropdown-menu {}
+    .clientType .dropdown-menu li {}
+    .clientType .dropdown-menu li i {}
+    .iti__selected-flag {}
+    .iti__country-list {}
+    .iti__flag.iti__gb {}
+    .iti {}
+    .iti--allow-dropdown .iti__flag-container,
+    .iti--separate-dial-code .iti__flag-container {}
+    .iti__country {}
+    .iti__country.iti__highlight {}
+    .iti__flag {}
+    .iti__flag-box,
+    .iti__country-name {}
+    /* End LinkGeneration */
+    /* Start Footer */
+    .footer {
+        height: auto;
+        /* margin-top: 30px; */
+        padding: 75px 0 30px 0;
+        background-position: top;
+        background-image: none;
+        background-color: #DED5E6;
+    }
+    .footer .container-fluid {}
+    .footer .row {}
+    .footer .firstSection {
+        padding-top: 45px;
+        position: unset;
+    }
+    .footer .barcode {
+        padding: 0 15px;
+    }
+    .footer .barcode img {
+        max-width: 80%;
+    }
+    .footer .contact-info {
+        padding: 0 15px;
+    }
+    .footer .contact-info p {
+        font-size: 15px;
+        padding: 0;
+    }
+    .footer .contact-info p.email {
+        padding: 0;
+    }
+    .footer .position {
+        padding: 0 15px;
+    }
+    .footer .position .positionData {
+        left: 20px;
+        bottom: 10px;
+    }
+    .footer .position img {
+        margin-bottom: 5px;
+    }
+    .footer .position p {
+        text-align: center;
+        padding: 0;
+    }
+    .footer .social-icons {
+        padding: 12px 15px;
+    }
+    .footer .social-icons a {
+        margin: 0px 8px;
+    }
+    .footer .saudi-image {
+        position: unset;
+        width: auto;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        /* margin-top: 34px; */
+        /* padding-top: 70px; */
+    }
+    .footer .saudi-image img {
+        max-width: 100%;
+    }
+    .footer .clients {
+        margin: auto;
+        padding-top: 66px;
+    }
+    .footer .clients h2 {}
+    .footer .regist {
+        padding-top: 66px;
+        position: unset;
+    }
+    .footer .regist h3 {
+        font-size: 18px;
+        margin-bottom: 11px;
+    }
+    .footer .regist .form-input {
+        width: 100%;
+        font-size: 12px;
+    }
+    .footer .regist .btn-light {
+        width: 100%;
+        height: 45px;
+        line-height: 45px;
+        font-size: 17px;
+    }
+    .footer .owl-carousel {}
+    .footer .owl-carousel .owl-item img {}
+    .footer .owl-carousel .owl-nav {}
+    .footer .owl-carousel .owl-nav button.owl-next,
+    .footer .owl-carousel .owl-nav button.owl-prev {}
+    .footer .owl-carousel .owl-nav button.owl-next {}
+    .footer .owl-carousel .owl-nav button.owl-prev {}
+    .footer .owl-carousel .owl-nav button.owl-next span,
+    .footer .owl-carousel .owl-nav button.owl-prev span {}
+    /* End Footer */
+    /* Start endFooter */
+    .endFooter {}
+    .endFooter p {}
+    /* End endFooter */
+    /* ---------------------------- Join Our Team PAGE ------------------------------- */
+    /* Start team */
+    .team {
+        margin-top: 91px;
+        height: auto;
+    }
+    .team h2 {
+        padding: 105px 0px;
+    }
+    .teamJoin {}
+    .teamJoin .nav-tabs {}
+    .teamJoin .nav-tabs .nav-item {
+        width: 50%;
+    }
+    .teamJoin .nav-tabs .nav-link {
+        padding: 20px 0;
+    }
+    .teamJoin .nav-tabs .nav-item.show .nav-link,
+    .teamJoin .nav-tabs .nav-link.active {
+        padding: 20px 0;
+    }
+    .teamJoin p {}
+    .teamJoin .form-input {}
+    .teamJoin .form-check-inline {}
+    .teamJoin .selectGender {}
+    .teamJoin .form-control.country {}
+    .teamJoin .form-control option {}
+    .teamJoin .form-control.pinCode {}
+    .teamJoin .btn-light {}
+    .teamJoin .form-group {}
+    .teamJoin .btn-outline-secondary {}
+    .teamJoin .btn-outline-secondary i {}
+    .teamJoin .form-group.link .form-input {}
+    .teamJoin .form-group i {}
+    .datepicker.dropdown-menu {}
+    .teamJoin .datepicker-days {}
+    .teamJoin .datepicker table {}
+    .teamJoin .contractType {}
+    .teamJoin .contractType p {}
+    .teamJoin .custom-control-label {}
+    .teamJoin .custom-control-label::before {}
+    .teamJoin .custom-control-input:checked~.custom-control-label::before {}
+    .teamJoin .custom-control-label::after {}
+    .teamJoin .upload-btn-wrapper {}
+    .teamJoin .btn.upload {}
+    .teamJoin .btn.upload i {}
+    .teamJoin .upload-btn-wrapper input[type=file] {}
+    .datepicker.dropdown-menu {
+        top: 950px !important;
+        left: 55px !important;
+        right: 280px !important;
+    }
+    /* End teamJoin */
+    /* ---------------------------- Join Price Offer PAGE ------------------------------- */
+    /* Start Price Offer */
+    .priceOffer {
+        height: auto;
+        margin-top: 91px;
+    }
+    .priceOffer h2 {
+        padding: 82px 0px;
+    }
+    .priceOfferForm {}
+    .priceOfferForm h2 {}
+    .priceOfferForm p {}
+    .priceOfferForm .form-input {}
+    .priceOfferForm .selectGender {}
+    .priceOfferForm .form-control.country {}
+    .priceOfferForm .form-control option {}
+    .priceOfferForm .form-control.pinCode {}
+    .priceOfferForm .btn-light {
+        width: 90%;
+        margin-top: 30px;
+    }
+    .priceOfferForm .form-group {}
+    .priceOfferForm .btn-outline-secondary {}
+    .priceOfferForm .btn-outline-secondary i {}
+    .priceOfferForm .form-group.link .form-input {}
+    .priceOfferForm .form-group i {}
+    .priceOfferForm .datepicker-days {}
+    .priceOfferForm .datepicker table {}
+    .priceOfferForm .contractType {}
+    .priceOfferForm .form-check-inline {}
+    .priceOfferForm .custom-control-label {}
+    .priceOfferForm .custom-control-label::before {}
+    .priceOfferForm .custom-control-input:checked~.custom-control-label::before {}
+    .priceOfferForm .custom-control-label::after {}
+    .priceOfferForm .upload-btn-wrapper {}
+    .priceOfferForm .btn.upload {}
+    .priceOfferForm .btn.upload i {}
+    .priceOfferForm .upload-btn-wrapper input[type=file] {}
+    .priceOfferForm textarea {}
+    .priceOfferForm .form-input.btn-danger {
+        margin: 1%;
+        width: 30%;
+    }
+    .priceOfferForm .form-input.btn-danger.manage {}
+    /******************* Slider Range ******************/
+    .priceOfferForm .budget .price-range-block {}
+    .priceOfferForm .budget .ui-slider-horizontal {}
+    .priceOfferForm .budget .ui-widget-header {}
+    .priceOfferForm .budget .price-range-field {}
+    /******************* Slider Range ******************/
+    /* End priceOfferForm */
+    /* -------------------------------- Blog Page ------------------------- */
+    .blogsBanner {
+        margin-top: 35px;
+    }
+    .blogsBanner h2 {
+        padding: 150px 0 0 0;
+    }
+    .blogsBanner .searchDiv {
+        padding-top: 0px;
+        padding-right: 20px;
+    }
+    .blogsBanner .form-control {}
+    .blogsBanner .btn-secondary {}
+    .blogsBanner .btn-secondary i {}
+    .blogsPage {}
+    .blogsPage .nav-tabs {}
+    .blogsPage .nav-tabs .nav-item {
+        width: 50%;
+    }
+    .blogsPage .nav-tabs .nav-link {
+        padding: 20px 0;
+    }
+    .blogsPage .nav-tabs .nav-item.show .nav-link,
+    .blogsPage .nav-tabs .nav-link.active {
+        padding: 20px 0;
+    }
+    .blogsPage .article {}
+    .blogsPage .article .articlePhoto {
+        width: auto;
+        height: auto;
+    }
+    .blogsPage .article .articlePhoto img {
+        width: 100%;
+        margin: 0;
+    }
+    .blogsPage .article .articlePhoto .overlay {}
+    .blogsPage .article .articlePhoto .overlay h4 {}
+    .blogsPage .article h3 {}
+    .blogsPage .article i {}
+    .blogsPage .article span {}
+    .blogsPage .article p {}
+    /***************** Page Blog2 Start **************************/
+    .postPage {}
+    .postPage .breadcrumb-item+.breadcrumb-item::before {}
+    .postPage .breadcrumb {}
+    .postPage .breadcrumb li {}
+    .postPage .breadcrumb li.active {}
+    .postPage .breadcrumb li a {}
+    .postPage .breadcrumb li.active a {}
+    .postPage .breadcrumb li i {}
+    .postPage .breadcrumb li.active i {}
+    .postPage .post {}
+    .postPage .post .postPhoto {}
+    .postPage .post .postPhoto img {}
+    .postPage .post h3 {}
+    .postPage .post i {}
+    .postPage .post span {}
+    .postPage .post p {}
+    .postPage .cats {}
+    .postPage .cats h4 {}
+    .postPage .cats a {}
+    .postPage .cats a i {}
+    .postPage .cats a span {}
+    .postPage .relatedPosts {}
+    .postPage .relatedPosts h4 {}
+    .postPage .relatedPosts .postPhoto {}
+    .postPage .relatedPosts .postPhoto img {}
+    .postPage .relatedPosts .postInfo {}
+    .postPage .relatedPosts .postInfo h5 {}
+    .postPage .relatedPosts .postInfo i {}
+    .postPage .relatedPosts .postInfo span {}
+    /***************** Free Consultation Page Start **************************/
+    .freeConsultBanner {
+        height: auto;
+        margin-top: 100px;
+    }
+    .freeConsultBanner h2 {
+        padding: 90px 0;
+    }
+    .freeConsult {}
+    .freeConsult p {}
+    .freeConsult .form-input {}
+    .freeConsult .form-group i {}
+    .freeConsult .form-control.pinCode {}
+    .freeConsult h3 {}
+    .freeConsult .form-input.btn-danger {}
+    .freeConsult .btn-light {}
+   
+    .priceSlider {}
+    .priceSlider input {}
+    .priceSlider span.min-fixed {}
+    .priceSlider span.max-fixed {}
+    .slider-labels {}
+    .slider-labels .caption {}
+    .slider-labels .caption.min {}
+    .slider-labels .caption.max {}
+    .slider-labels .caption span {}
+    .slider-labels .caption strong {}
+    /*Start offersHome*/
+    .offersHome {
+        background-size: 103%;
+        margin-top: 37px;
+    }
+    .offersHome h2 {
+        padding-top: 23%;
+        font-size: 30px;
+    }
+    .offers {}
+    .offers .allPackages {
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 884px;
+        margin-top: 0px;
+    }
+    .offers .allPackages .col-md-6 {}
+    .offers .allPackages .package {}
+    .offers .allPackages .package.one {
+        top: 16px;
+        right: 15px;
+    }
+    .offers .allPackages .package.two {
+        left: 15px;
+        top: 128px;
+    }
+    .offers .allPackages .package.three {
+        right: 15px;
+        top: 237px;
+    }
+    .offers .allPackages .package.four {
+        left: 15px;
+        top: 347px;
+    }
+    .offers .allPackages .package.five {
+        right: 15px;
+        top: 457px;
+    }
+    .offers .allPackages .package.six {
+        left: 15px;
+        top: 568px;
+    }
+    .offers .allPackages .package.seven {
+        right: 15px;
+        top: 677px;
+    }
+    .offers .allPackages .package h3 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .offers .allPackages .package span {
+        font-size: 16px;
+    }
+    .offers .allPackages .package span .num {}
+    .offers .allPackages .package p {
+        font-size: 13px;
+        text-align: center;
+        margin: 5px 0;
+        line-height: 19px;
+    }
+    .offers .allPackages .package .btn-light {
+        height: 27px;
+        line-height: 12px;
+    }
+    .offers .allPackages .package .btn-light:hover {}
+    /*end offersHome*/
+
+     /* ------------------------------------------------ */
+    .elegant-calencar ol, .elegant-calencar ul {
+}
+.elegant-calencar blockquote,.elegant-calencar q {
+}
+.elegant-calencar blockquote:before,.elegant-calencar blockquote:after,
+.elegant-calencar q:before, .elegant-calencar q:after {
+
+}
+.elegant-calencar table {
+}
+.elegant-calencar .clearfix:before,
+.elegant-calencar .clearfix:after {
+}
+
+.elegant-calencar .clearfix:after {
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.elegant-calencar .clearfix {
+}
+.elegant-calencar .img-responsive {
+}
+
+
+.elegant-calencar {height: 315px;overflow: hidden;}
+
+#header {
+}
+
+.elegant-calencar .pre-button,.elegant-calencar .next-button {
+}
+
+
+.elegant-calencar .pre-button {
+}
+
+.elegant-calencar .next-button {
+}
+
+.elegant-calencar .head-info {width: unset;}
+
+.elegant-calencar .head-day {
+}
+
+.elegant-calencar .head-month {font-size: 12px;    margin: 0px 100px;
+}
+
+#calendar {}
+#calendar th{margin: 0px 2px 5px 2px;width: 12%;height: 12%;font-size: 11px;line-height: 33px;}
+#calendar tr {
+}
+
+.elegant-calencar thead tr {
+}
+
+.elegant-calencar tbody tr {
+}
+
+.elegant-calencar tbody td{margin: 0px 2px 5px 2px;width: 12%;height: 12%;font-size: 11px;line-height: 33px;}
+
+
+
+#today {
+}
+
+#disabled {
+}
+
+
+
+#reset{
+}
+
+/* *********************************************** */
+
+
+}
+
+
+/* ---- LG ------- LG ------- LG ------- LG ------- LG ------- LG ------- LG ------- LG -------- LG ------- */
+
+@media(min-width: 1024px) and (max-width: 1365px) {
+         /* ------------------------------------------------ */
+    .elegant-calencar ol, .elegant-calencar ul {
+}
+.elegant-calencar blockquote,.elegant-calencar q {
+}
+.elegant-calencar blockquote:before,.elegant-calencar blockquote:after,
+.elegant-calencar q:before, .elegant-calencar q:after {
+
+}
+.elegant-calencar table {
+}
+.elegant-calencar .clearfix:before,
+.elegant-calencar .clearfix:after {
+}
+
+.elegant-calencar .clearfix:after {
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.elegant-calencar .clearfix {
+}
+.elegant-calencar .img-responsive {
+}
+
+
+.elegant-calencar {height: 355px;overflow: hidden;}
+
+#header {margin-bottom: 40px;}
+
+.elegant-calencar .pre-button,.elegant-calencar .next-button {font-size: 17px;}
+
+
+.elegant-calencar .pre-button {
+}
+
+.elegant-calencar .next-button {
+}
+
+.elegant-calencar .head-info {width: unset;}
+
+.elegant-calencar .head-day {
+}
+
+.elegant-calencar .head-month {font-size: 19px;margin: 0 71px;}
+
+#calendar {
+    width: 100%;
+}
+#calendar th{margin: 0px 2px 5px 2px;width: 12%;height: 12%;font-size: 14px;line-height: 33px;}
+#calendar tr {
+}
+
+.elegant-calencar thead tr {
+}
+
+.elegant-calencar tbody tr {
+}
+
+.elegant-calencar tbody td{margin: 0px 2px 5px 2px;width: 12%;height: 12%;font-size: 16px;line-height: 33px;}
+
+
+
+#today {
+}
+
+#disabled {
+}
+
+
+
+#reset{
+}
+
+/* *********************************************** */
+}
+
+
+/* ------- XL ----------- XL ----------- XL ----------- XL ----------- XL ----------- XL ----------- XL ---- */
+
+@media(min-width: 1366px) and (max-width: 1367px) {}

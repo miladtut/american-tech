@@ -1,0 +1,190 @@
+
+/* servicse */
+.cid-rRZd8kSvMZ {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: #ffffff;
+  }
+  .cid-rRZd8kSvMZ .mbr-iconfont {
+    font-size: 1.1rem;
+    color: #232323;
+    padding: 0 0.5rem;
+    transition: color 0.3s;
+  }
+  .cid-rRZd8kSvMZ .mbr-iconfont:hover {
+    color: #777777;
+  }
+  .cid-rRZd8kSvMZ .card-img {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  .cid-rRZd8kSvMZ a {
+    font-weight: 600;
+  }
+  .cid-rRZd8kSvMZ .card-img:before {
+    content: '';
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    left: 0;
+    background-color: #232323;
+    opacity: 0;
+    transform-origin: right center 0;
+    transform: perspective(100px) rotateY(-120deg);
+    transform-style: flat;
+    transition: transform 0.5s ease-in-out, opacity 0.2s ease-in-out;
+  }
+  .cid-rRZd8kSvMZ .card-box {
+    padding: 2rem 1rem;
+    background-color: #ffffff;
+    width: 80%;
+    margin: auto;
+    margin-top: -25%;
+    position: relative;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .cid-rRZd8kSvMZ .card-box h3 {
+    font-weight: 600;
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    font-size: 16px;
+  }
+  .cid-rRZd8kSvMZ .card-wrapper {
+    height: 100%;
+  }
+  .cid-rRZd8kSvMZ .card-wrapper:hover .card-img:before {
+    opacity: 0.3;
+    transform: perspective(100px) rotateY(0deg);
+  }
+  .cid-rRZd8kSvMZ .text {
+    color: #767676;
+  }
+  .cid-rRZd8kSvMZ .card-subtitle {
+    color: #ff3366;
+  }
+
+  .cid-rRZfnG3gCZ {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: #ffffff;
+  }
+  .cid-rRZfnG3gCZ .mbr-iconfont {
+    font-size: 1.1rem;
+    color: #232323;
+    padding: 0 0.5rem;
+    transition: color 0.3s;
+  }
+  .cid-rRZfnG3gCZ .mbr-iconfont:hover {
+    color: #777777;
+  }
+  .cid-rRZfnG3gCZ .card-img {
+    position: relative;
+    overflow: hidden;
+  }
+  .cid-rRZfnG3gCZ a {
+    font-weight: 600;
+  }
+  .cid-rRZfnG3gCZ .card-img:before {
+    content: '';
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    left: 0;
+    background-color: #232323;
+    opacity: 0;
+    transform-origin: right center 0;
+    transform: perspective(100px) rotateY(-120deg);
+    transform-style: flat;
+    transition: transform 0.5s ease-in-out, opacity 0.2s ease-in-out;
+  }
+  .cid-rRZfnG3gCZ .card-box {
+    padding: 2rem 1rem;
+    background-color: #ffffff;
+    width: 80%;
+    margin: auto;
+    margin-top: -25%;
+    position: relative;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .cid-rRZfnG3gCZ .card-box h3 {
+    font-weight: bolder;
+    width: 100%;
+    display: inline-block;
+    margin: 0;
+    font-size: 16px;
+  }
+  .cid-rRZfnG3gCZ .card-wrapper {
+    height: 100%;
+  }
+  .cid-rRZfnG3gCZ .card-wrapper:hover .card-img:before {
+    opacity: 0.3;
+    transform: perspective(100px) rotateY(0deg);
+  }
+  .cid-rRZfnG3gCZ .text {
+    color: #767676;
+  }
+  .cid-rRZfnG3gCZ .card-subtitle {
+    color: #ff3366;
+  }
+
+.services .card-wrapper {
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.services .card-wrapper .card-img img {
+    width: 100%;
+    height: 100%;
+}
+.services .card-wrapper .card-img {
+    background-color: transparent;
+
+}
+.services .card-wrapper .card-img:hover
+
+{
+    transform: scale(1.1) translate(2px);
+    transition: .3s ease-in-out;
+}
+
+.services .card {
+    border: none;
+}
+
+.services h2 {
+    font-size: 40px;
+    color: #57B09A;
+    display: inline-block;
+
+}
+
+.services hr {
+    width: 345px;
+    margin-right: 146px;
+    border-top: 2px solid #57B09A;
+    margin-top: 30px;
+    margin-bottom: 6px;
+    display: inline-block;
+}
+
+.services{
+  height:auto!important; 
+}

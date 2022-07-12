@@ -1,0 +1,56 @@
+.sidebar-menu li a .fa-angle-left,
+.sidebar-menu li .label, .sidebar-menu li .badge {
+	position: absolute;
+	top:89%;
+	left: 2px ;
+}
+
+
+
+.fa.pull-right {
+	margin-left: .3em;
+}
+
+
+.sidebar-menu .treeview-menu > li {
+	margin: 0px;
+	margin-right: 0px;
+	margin-right: 12px !important;
+}
+
+
+
+
+
+.sidebar-menu li > a > .pull-right-container {
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	margin-top: -7px;
+}
+
+.treeview .fa .title{
+	margin-right: 20px !important;
+}
+
+
+.skin-blue .sidebar-menu > li > a {
+	border-right: 3px solid transparent !important;
+}
+
+.skin-blue .sidebar-menu > li:hover > a,
+.skin-blue .sidebar-menu > li.active > a {
+	color: #ffffff;
+	background: #1e282c;
+	border-right-color: #3c8dbc !important;
+	border-left-color :#1e282c !important;
+}
+
+
+
+.sidebar-mini.sidebar-collapse .sidebar-menu > li > a > span {
+	border-top-left-radius: 0px;
+	margin-right: -3px;
+	padding-right: 13px;
+	text-align: center;
+}

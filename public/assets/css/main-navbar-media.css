@@ -1,0 +1,236 @@
+/* MEDIA QUERY */
+
+
+/*---------- XS -------------- XS --------------- XS --------------- XS ------------------- XS --------- */
+
+@media(min-width: 320px) and (max-width: 767px) {
+    /* ----------------  Start Navbar ----------------------------- */
+    /* navbar style start */
+    .mainNavbar .bg-dark,
+    .mainNavbar .bg-dark.navbar-scroll {
+        padding: 20px 0;
+    }
+    .mainNavbar .navbar-dark .navbar-nav .nav-link,
+    .mainNavbar .navbar-dark.navbar-scroll .navbar-nav .nav-link {
+        width: 90%;
+    }
+    .mainNavbar .navbar-collapse {
+        padding-top: 20px;
+    }
+    .mainNavbar .navbar-nav {
+        background-color: #9A32B0;
+        padding-top: 10px;
+    }
+    .mainNavbar .navbar-dark .navbar-nav .nav-link.active {}
+    .mainNavbar .navbar-dark .navbar-nav .nav-link:hover {}
+    .mainNavbar .bg-dark .list-unstyled,
+    .mainNavbar .bg-dark.navbar-scroll .list-unstyled {
+        display: none;
+    }
+    .mainNavbar .bg-dark .list-unstyled li {}
+    .mainNavbar .bg-dark .list-unstyled li a {}
+    .mainNavbar .bg-dark .list-unstyled li a:hover {}
+    .mainNavbar .bg-dark .list-unstyled i.fa-whatsapp {}
+    .mainNavbar .bg-dark .list-unstyled i.fa-globe-africa {}
+    .mainNavbar .navbar-dark .navbar-brand,
+    .mainNavbar .navbar-dark .navbar-brand {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        display: block;
+        text-align: center;
+        position: absolute;
+        top: 17px;
+        left: 0;
+    }
+    .mainNavbar .navbar-dark .navbar-brand img,
+    .navbar-dark.navbar-scroll .navbar-brand img {
+        max-width: 60%;
+    }
+    .mainNavbar .navbar-dark .navbar-toggler,
+    .mainNavbar .navbar-dark.navbar-scroll .navbar-toggler {
+        margin-right: 6%;
+    }
+    /* navbar style end */
+    /* ------------------------------------------------------- */
+    /* ON SCROLL navbar style start */
+    .mainNavbar .navbar-scroll .container {}
+    .mainNavbar .bg-dark.navbar-scroll {
+        background-color: #9A32B0 !important;
+    }
+    .mainNavbar .navbar-dark.navbar-scroll .navbar-nav .nav-link {
+        color: #fff;
+    }
+    .mainNavbar .navbar-dark.navbar-scroll .navbar-nav .nav-link.active {}
+    .mainNavbar .navbar-dark.navbar-scroll .navbar-nav .nav-link:hover {}
+    .mainNavbar .navbar-scroll .list-unstyled {}
+    .mainNavbar .navbar-scroll .list-unstyled li {}
+    .mainNavbar .navbar-scroll .list-unstyled li a {}
+    .mainNavbar .navbar-scroll .list-unstyled li a:hover {}
+    .mainNavbar .navbar-scroll .list-unstyled i.fa-whatsapp {}
+    .navbar-dark.navbar-scroll .navbar-brand img {
+        height: auto;
+    }
+    .mainNavbar .navbar-scroll .list-unstyled i.fa-globe-africa {}
+    .mainNavbar .navbar-dark.navbar-scroll .navbar-brand {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: absolute;
+        top: 17px;
+        left: 0;
+    }
+    /* navbar style end */
+}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 360px) and (max-width: 767px) {}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 375px) and (max-width: 767px) {}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 411px) and (max-width: 767px) {}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 414px) and (max-width: 767px) {}
+
+
+/* ----------------------------------------------------------------------------------------------*/
+
+@media(min-width: 568px) and (max-width: 767px) {}
+
+
+/* ------- SM ------------- SM ------------- SM ------------- SM ------------- SM ------------- SM ------ */
+
+@media(min-width: 640px) and (max-width: 767px) {}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media(min-width: 667px) and (max-width: 767px) {}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media(min-width: 731px) and (max-width: 767px) {}
+
+
+/* ---------------------------------------------------------------------- */
+
+@media(min-width: 736px) and (max-width: 767px) {}
+
+
+/* ----- MD --------- MD --------- MD --------- MD --------- MD --------- MD --------- MD --------- MD ----*/
+
+@media(min-width: 768px) and (max-width: 991px) {
+    /* navbar style start */
+    .mainNavbar .bg-dark,
+    .mainNavbar .bg-dark.navbar-scroll {
+        padding: 20px 0;
+        height: 120px;
+    }
+    .mainNavbar .navbar-dark .navbar-nav .nav-link,
+    .mainNavbar .navbar-dark.navbar-scroll .navbar-nav .nav-link {
+        width: 90%;
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    .mainNavbar .navbar-collapse {
+        padding-top: 20px;
+    }
+    .mainNavbar .navbar-nav {
+        background-color: #9A32B0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .mainNavbar .navbar-dark .navbar-nav .nav-link.active {}
+    .mainNavbar .navbar-dark .navbar-nav .nav-link:hover {}
+    .mainNavbar .bg-dark .list-unstyled,
+    .mainNavbar .bg-dark.navbar-scroll .list-unstyled {
+        display: none;
+    }
+    .mainNavbar .bg-dark .list-unstyled li {}
+    .mainNavbar .bg-dark .list-unstyled li a {}
+    .mainNavbar .bg-dark .list-unstyled li a:hover {}
+    .mainNavbar .bg-dark .list-unstyled i.fa-whatsapp {}
+    .mainNavbar .bg-dark .list-unstyled i.fa-globe-africa {}
+    .mainNavbar .navbar-dark .navbar-brand,
+    .mainNavbar .navbar-dark .navbar-brand {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        display: block;
+        text-align: center;
+        position: absolute;
+        top: 25px;
+        left: 10%;
+    }
+    .mainNavbar .navbar-dark .navbar-brand img,
+    .mainNavbar .navbar-dark.navbar-scroll .navbar-brand img {
+        max-width: 80%;
+    }
+    .mainNavbar .navbar-dark .navbar-toggler,
+    .mainNavbar .navbar-dark.navbar-scroll .navbar-toggler {
+        margin-right: 10%;
+        padding: 10px 20px;
+        font-size: 24px;
+    }
+    /* navbar style end */
+    /* ------------------------------------------------------- */
+    /* ON SCROLL navbar style start */
+    .mainNavbar .navbar-scroll .container {
+        max-width: unset;
+    }
+    .mainNavbar .bg-dark.navbar-scroll {
+        background-color: #9A32B0 !important;
+        padding-top: 60px;
+        height: 140px;
+    }
+    .mainNavbar .navbar-dark.navbar-scroll .navbar-nav .nav-link {
+        color: #fff;
+    }
+    .mainNavbar .navbar-dark.navbar-scroll .navbar-nav .nav-link.active {}
+    .mainNavbar .navbar-dark.navbar-scroll .navbar-nav .nav-link:hover {}
+    .mainNavbar .navbar-scroll .list-unstyled {}
+    .mainNavbar .navbar-scroll .list-unstyled li {}
+    .mainNavbar .navbar-scroll .list-unstyled li a {}
+    .mainNavbar .navbar-scroll .list-unstyled li a:hover {}
+    .mainNavbar .navbar-scroll .list-unstyled i.fa-whatsapp {}
+    .mainNavbar .navbar-dark.navbar-scroll .navbar-brand img {
+        height: auto;
+        max-width: 72%;
+    }
+    .mainNavbar .navbar-scroll .list-unstyled i.fa-globe-africa {}
+    .mainNavbar .navbar-dark.navbar-scroll .navbar-brand {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: absolute;
+        top: 50px;
+        left: 10%;
+    }
+    /* navbar style end */
+}
+
+
+/* ---- LG ------- LG ------- LG ------- LG ------- LG ------- LG ------- LG ------- LG -------- LG ------- */
+
+@media(min-width: 1024px) and (max-width: 1365px) {}
+
+
+/* ------- XL ----------- XL ----------- XL ----------- XL ----------- XL ----------- XL ----------- XL ---- */
+
+@media(min-width: 1366px) and (max-width: 1367px) {}

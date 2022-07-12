@@ -1,0 +1,176 @@
+/* ----------------  Start Navbar ----------------------------- */
+
+
+/* navbar style start */
+
+.mainNavbar .bg-dark {
+    background: transparent !important;
+    margin: 0;
+    padding: 0;
+    z-index: 9999;
+    height: 100px;
+    transition-duration: 1s;
+}
+
+.mainNavbar .navbar .container {
+    max-width: 1280px;
+}
+
+.mainNavbar .navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 30px;
+    transition-duration: 0.3s;
+    padding: 8px 15px;
+    margin: auto;
+}
+
+.mainNavbar .navbar-dark .navbar-nav .nav-link.active {
+    color: #9834B1;
+    background-color: #ffffff;
+    border-radius: 25px;
+    transition-duration: 0.3s;
+}
+
+.mainNavbar .navbar-dark .navbar-nav .nav-link:hover {
+    color: #9834B1;
+    background-color: #ffffff;
+    border-radius: 25px;
+    transition-duration: 0.3s;
+}
+
+.mainNavbar .bg-dark .list-unstyled {
+    display: flex;
+    margin-left: 23%;
+}
+
+.mainNavbar .bg-dark .list-unstyled li {}
+
+.mainNavbar .bg-dark .list-unstyled li a {
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 30px;
+    transition-duration: 0.3s;
+    padding: 8px 15px;
+    margin: auto;
+}
+
+.mainNavbar .bg-dark .list-unstyled li a:hover {
+    transition-duration: 0.3s;
+}
+
+.mainNavbar .bg-dark .list-unstyled i.fa-whatsapp {
+    background-color: #55CD6C;
+    font-size: 20px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+.mainNavbar .bg-dark .list-unstyled i.fa-globe-africa {
+    font-size: 20px;
+}
+
+.mainNavbar .navbar-dark .navbar-brand {
+    display: none;
+}
+
+
+/* navbar style end */
+
+
+/* ------------------------------------------------------- */
+
+
+/* ON SCROLL navbar style start */
+
+.mainNavbar .navbar-scroll .container {
+    max-width: 1280px;
+}
+
+.mainNavbar .bg-dark.navbar-scroll {
+    background: #fff!important;
+    margin: 0;
+    padding: 0;
+    z-index: 9999;
+    height: 100px;
+    border-bottom: 1px solid #707070;
+    transition-duration: .5s;
+}
+
+.mainNavbar .navbar-dark.navbar-scroll .navbar-nav .nav-link {
+    color: #9834B1;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 30px;
+    transition-duration: 0.3s;
+    padding: 8px 15px;
+    margin: auto;
+}
+
+.mainNavbar .navbar-dark.navbar-scroll .navbar-nav .nav-link.active {
+    color: #fff;
+    background-color: #9834B1;
+    border-radius: 25px;
+    transition-duration: 0.3s;
+}
+
+.mainNavbar .navbar-dark.navbar-scroll .navbar-nav .nav-link:hover {
+    color: #9834B1;
+    background-color: #ffffff;
+    border-radius: 25px;
+    transition-duration: 0.3s;
+}
+
+.mainNavbar .navbar-scroll .list-unstyled {
+    display: flex;
+    margin-left: 8%;
+}
+
+.mainNavbar .navbar-scroll .list-unstyled li {}
+
+.mainNavbar .navbar-scroll .list-unstyled li a {
+    color: #9834B1;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 30px;
+    transition-duration: 0.3s;
+    padding: 8px 15px;
+    margin: auto;
+}
+
+.mainNavbar .navbar-scroll .list-unstyled li a:hover {
+    transition-duration: 0.3s;
+}
+
+.mainNavbar .navbar-scroll .list-unstyled i.fa-whatsapp {
+    background-color: #55CD6C;
+    font-size: 24px;
+    margin: 0px 10px;
+    border-radius: 50%;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+}
+
+.mainNavbar .navbar-dark.navbar-scroll .navbar-brand img {
+    height: 70px;
+    object-fit: cover;
+}
+
+.mainNavbar .navbar-scroll .list-unstyled i.fa-globe-africa {
+    font-size: 20px;
+}
+
+.mainNavbar .navbar-dark.navbar-scroll .navbar-brand {
+    display: inline-block;
+}
+
+
+/* navbar style end */

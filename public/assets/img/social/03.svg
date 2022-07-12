@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1.137" y1="-0.108" x2="-0.06" y2="1.035" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4eeeff"/>
+      <stop offset="1" stop-color="#4e66ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="10.685" y1="-2.324" x2="-5.802" y2="2.249" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="8.453" y1="-7.104" x2="-6.385" y2="7.074" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="3.135" y1="-1.851" x2="-1.878" y2="2.608" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Group_36554" data-name="Group 36554" transform="translate(0 0)">
+    <g id="Group_36552" data-name="Group 36552">
+      <path id="Path_41238" data-name="Path 41238" d="M292.594,402.5H280.206a9.8,9.8,0,0,1-9.806-9.806V380.306a9.8,9.8,0,0,1,9.806-9.806h12.387a9.8,9.8,0,0,1,9.806,9.806v12.387A9.869,9.869,0,0,1,292.594,402.5Zm-12.387-30.761a8.635,8.635,0,0,0-8.619,8.619v12.387a8.635,8.635,0,0,0,8.619,8.619h12.387a8.635,8.635,0,0,0,8.619-8.619V380.358a8.635,8.635,0,0,0-8.619-8.619Z" transform="translate(-270.4 -370.5)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="Group_36553" data-name="Group 36553" transform="translate(10.091 10.195)">
+      <rect id="Rectangle_1473" data-name="Rectangle 1473" width="2.353" height="8.105" transform="translate(0.105 3.556)" fill="url(#linear-gradient-2)"/>
+      <path id="Path_41239" data-name="Path 41239" d="M291.407,390.4a1.307,1.307,0,1,0,1.307,1.307A1.295,1.295,0,0,0,291.407,390.4Z" transform="translate(-290.1 -390.4)" fill="url(#linear-gradient-3)"/>
+      <path id="Path_41240" data-name="Path 41240" d="M303.7,396.957a3.107,3.107,0,0,0-3.347.889h0l-.314-1.046H297.9v8.315h2.51v-4.968a1.35,1.35,0,0,1,1.36-1.36h0a1.35,1.35,0,0,1,1.36,1.36v4.968h2.51v-4.183C305.587,400.931,305.9,397.584,303.7,396.957Z" transform="translate(-293.821 -393.453)" fill="url(#linear-gradient-4)"/>
+    </g>
+  </g>
+</svg>

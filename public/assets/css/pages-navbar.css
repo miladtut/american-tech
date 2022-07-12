@@ -1,0 +1,93 @@
+/* ----------------  Start Navbar ----------------------------- */
+
+
+/* navbar style start */
+
+.pagesNavbar .container {
+    max-width: 1280px;
+}
+
+.pagesNavbar .bg-dark {
+    background: #fff!important;
+    margin: 0;
+    padding: 0;
+    z-index: 9999;
+    height: 80px;
+    border-bottom: 0px solid #707070;
+    transition-duration: 1s;
+    box-shadow: 0 1px 3px 0 rgb(152, 52, 177, .1), 0 0px 4px 0 rgb(152, 52, 177, 0);
+}
+
+.pagesNavbar .navbar-dark .navbar-nav .nav-link {
+    color: #9834B1;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 30px;
+    transition-duration: 0.3s;
+    padding: 8px 15px;
+    margin: auto;
+}
+
+.pagesNavbar .navbar-dark .navbar-nav .nav-link.active {
+    color: #fff;
+    background-color: #9834B1;
+    border-radius: 25px;
+    transition-duration: 0.3s;
+}
+
+.pagesNavbar .navbar-dark .navbar-nav .nav-link:hover {
+    color: #9834B1;
+    background-color: #ffffff;
+    border-radius: 25px;
+    transition-duration: 0.3s;
+}
+
+.pagesNavbar .list-unstyled {
+    display: flex;
+    margin-left: 90px;
+}
+
+.pagesNavbar .list-unstyled li {}
+
+.pagesNavbar .list-unstyled li a {
+    color: #9834B1;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 30px;
+    transition-duration: 0.3s;
+    padding: 8px 15px;
+    margin: auto;
+}
+
+.pagesNavbar .list-unstyled li a:hover {
+    transition-duration: 0.3s;
+}
+
+.pagesNavbar .list-unstyled i.fa-whatsapp {
+    background-color: #55CD6C;
+    font-size: 24px;
+    margin: 0px 10px;
+    border-radius: 50%;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+}
+
+.pagesNavbar .navbar-dark .navbar-brand img {
+    height: 70px;
+    object-fit: cover;
+}
+
+.pagesNavbar .list-unstyled i.fa-globe-africa {
+    font-size: 20px;
+}
+
+.pagesNavbar .navbar-dark .navbar-brand {
+    display: inline-block;
+}
+
+
+/* navbar style end */
