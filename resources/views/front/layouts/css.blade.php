@@ -14,22 +14,22 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 
   @if(app()->isLocale('ar'))
-   <title>{{ (isset($sub_title) ? $sub_title.' | ' .'موقع العقل الرقمي ' : $site_setting->meta_title)}}</title> 
+   <title>{{$site_setting->meta_title}}</title>
   <meta property="og:title" content="{{ (isset($sub_title) ? $sub_title : $site_setting->meta_title  )}}"/>
   <meta property="og:description" content="{{ (isset($sub_desc) ? $sub_desc : $site_setting->meta_desc  )}}"/>
-  <meta property="og:image" content="{{asset('front/images/logo.png')}}"/>
-  <meta name="twitter:image:src" content="{{asset('front/images/logo.png')}}"/>
+  <meta property="og:image" content="{{image_url($site_setting->logo)}}"/>
+  <meta name="twitter:image:src" content="{{image_url($site_setting->logo)}}"/>
   <meta name="twitter:description" content="{{ (isset($sub_desc) ? $sub_desc : $site_setting->meta_desc  )}}"/>
   <meta name="twitter:title" content="{{ (isset($sub_title) ? $sub_title : $site_setting->meta_title  )}}"/>
   <meta name="description" content="{{ (isset($sub_desc) ? $sub_desc : $site_setting->meta_desc  )}}"/>
   <meta name="keywords" content="{{ (isset($sub_key_words) ? $sub_key_words : $site_setting->key_words  )}}"/>
   <meta name="title" content="{{ (isset($sub_title) ? $sub_title : $site_setting->meta_title  )}}"/>
   @else
-  <title>{{ (isset($sub_title) ? $sub_title.' | ' .'Digital Mind website' : $site_setting->meta_title_en)}}</title> 
+  <title>{{ $site_setting->meta_title_en}}</title>
   <meta property="og:title" content="{{ (isset($sub_title) ? $sub_title : $site_setting->meta_title_en  )}}"/>
   <meta property="og:description" content="{{ (isset($sub_desc) ? $sub_desc : $site_setting->meta_desc_en  )}}"/>
-  <meta property="og:image" content="{{asset('front/images/logo.png')}}"/>
-  <meta name="twitter:image:src" content="{{asset('front/images/logo.png')}}"/>
+  <meta property="og:image" content="{{image_url($site_setting->logo)}}"/>
+  <meta name="twitter:image:src" content="{{image_url($site_setting->logo)}}"/>
   <meta name="twitter:description" content="{{ (isset($sub_desc) ? $sub_desc : $site_setting->meta_desc_en  )}}"/>
   <meta name="twitter:title" content="{{ (isset($sub_title) ? $sub_title : $site_setting->meta_title_en  )}}"/>
   <meta name="description" content="{{ (isset($sub_desc) ? $sub_desc : $site_setting->meta_desc_en  )}}"/>
@@ -50,7 +50,7 @@
     <link href="{{asset('front/css/sweetalert2.min.css')}}" rel="stylesheet" type="text/css"/> 
     @stack('front_css')
     <link rel="stylesheet" href="{{asset('front/css/main.css')}}"/> 
-    <link rel="icon" type="image/png" href="{{asset('front/images/logo-2.png')}}" >
+    <link rel="icon" type="image/png" href="{{image_url($site_setting->logo)}}" >
 
     @if(app()->isLocale('ar'))
 
