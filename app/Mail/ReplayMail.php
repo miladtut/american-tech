@@ -27,7 +27,7 @@ class ReplayMail extends Mailable
         $data['content']= $this->content;
         $data['to_email']= $this->to_email;
         $data['header_text'] = $this->title;
-        return $this->from('contact@digitalbsa.com', 'العقل الرقمي')->subject($this->title)->view('mail.replay',$data);
+        return $this->from('contact@digitalbsa.com', 'اميريكان تك')->subject($this->title)->view('mail.replay',$data);
 
     }
 
