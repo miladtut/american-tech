@@ -3,7 +3,7 @@
 @section('content')
 
     <div  style="margin-top: -100px; margin-bottom: 20px">
-      <img src="{{asset('front/images/logo-2.png')}}" style="height: 160px; margin:auto; display: block">
+      <img src="{{image_url($site_setting->logo)}}" style="height: 160px; margin:auto; display: block">
     </div>
 
     <div class="row">
